@@ -1119,8 +1119,11 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
-    max-width: 100%;
-    height: auto
+    width: 550px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+
 }
 .img-rounded {
     border-radius: 6px
@@ -1605,10 +1608,6 @@ pre code {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto
-}
-.row {
-    margin-right: -15px;
-    margin-left: -15px
 }
 .col-lg-1,
 .col-lg-10,
