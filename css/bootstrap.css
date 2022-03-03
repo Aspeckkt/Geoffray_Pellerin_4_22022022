@@ -1111,7 +1111,8 @@ figure {
 }
 img {
     vertical-align: middle;
-    max-width: 100%;
+    width: 100px;
+    height: 100px;
 }
 .carousel-inner>.item>a>img,
 .carousel-inner>.item>img,
@@ -1119,7 +1120,9 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
-    width: 550px;
+    max-width: 100%;
+    width: 320px;
+    height: 320px;
     height: auto;
     margin-right: auto;
     margin-left: auto;
