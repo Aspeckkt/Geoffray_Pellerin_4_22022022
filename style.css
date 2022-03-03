@@ -257,7 +257,8 @@ a:hover {
     line-height: 44px;
 }
 .navbar-brand img {
-    max-height: 200px;
+    width: 300px;
+    height: 100px;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -737,8 +738,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 0;
+        padding-right: 0;
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -748,8 +749,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 @media (max-width: 767px) {
